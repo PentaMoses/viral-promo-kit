@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ShoppingCart, Zap } from 'lucide-react';
+import { Cpu, Zap } from 'lucide-react';
 
 interface LogoProps {
   size?: 'sm' | 'md' | 'lg' | 'xl';
@@ -26,7 +26,7 @@ const Logo: React.FC<LogoProps> = ({ size = 'md', variant = 'full' }) => {
     return (
       <div className="relative inline-flex items-center justify-center">
         <div className="relative">
-          <ShoppingCart 
+          <Cpu 
             size={iconSizes[size]} 
             className="text-brand-blue animate-pulse-scale"
           />
@@ -42,7 +42,7 @@ const Logo: React.FC<LogoProps> = ({ size = 'md', variant = 'full' }) => {
   if (variant === 'text') {
     return (
       <span className={`font-poppins font-black ${sizeClasses[size]} text-brand-blue`}>
-        umapromonaweb
+        O Garimpo Tech
       </span>
     );
   }
@@ -51,7 +51,7 @@ const Logo: React.FC<LogoProps> = ({ size = 'md', variant = 'full' }) => {
     <div className="flex items-center gap-3">
       <div className="relative">
         <div className="bg-gradient-to-br from-brand-blue to-brand-blue/80 p-2 rounded-xl shadow-lg">
-          <ShoppingCart 
+          <Cpu 
             size={iconSizes[size]} 
             className="text-white"
           />
@@ -63,10 +63,10 @@ const Logo: React.FC<LogoProps> = ({ size = 'md', variant = 'full' }) => {
       </div>
       <div className="flex flex-col">
         <span className={`font-poppins font-black ${sizeClasses[size]} text-brand-blue leading-none`}>
-          umapromo
+          O Garimpo
         </span>
         <span className={`font-poppins font-black ${sizeClasses[size]} text-brand-orange leading-none`}>
-          naweb
+          Tech
         </span>
       </div>
     </div>
