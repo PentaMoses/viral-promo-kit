@@ -9,7 +9,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-white">
       {/* Hero Section */}
-      <header className="relative overflow-hidden bg-gradient-to-br from-brand-blue via-brand-blue/90 to-purple-600">
+      <header className="relative overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-700">
         <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg%20width%3D%2260%22%20height%3D%2260%22%20viewBox%3D%220%200%2060%2060%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cg%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.1%22%3E%3Ccircle%20cx%3D%2230%22%20cy%3D%2230%22%20r%3D%224%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-30"></div>
         
         <div className="relative max-w-6xl mx-auto px-4 py-12">
@@ -112,7 +112,7 @@ const Index = () => {
               rating={4.9}
               platform="temu"
               isViral={true}
-              imageUrl="/images/products/fone-bluetooth.jpg"
+              imageUrl="/lovable-uploads/1386b3a7-44a6-4b93-ad13-b610c5b75ce6.png"
             />
             
             <ProductCard
@@ -123,7 +123,7 @@ const Index = () => {
               rating={4.8}
               platform="shopee"
               isViral={true}
-              imageUrl="/images/products/smartwatch.jpg"
+              imageUrl="/lovable-uploads/846c7e43-f0e7-4b6d-8d6f-d9e9b37ed7ed.png"
             />
             
             <ProductCard
@@ -133,7 +133,7 @@ const Index = () => {
               discount="70"
               rating={4.7}
               platform="aliexpress"
-              imageUrl="/images/products/ring-light.jpg"
+              imageUrl="/lovable-uploads/0207736a-6bc0-4663-8535-08807688f328.png"
             />
 
             <ProductCard
@@ -143,7 +143,7 @@ const Index = () => {
               discount="77"
               rating={4.6}
               platform="temu"
-              imageUrl="/images/products/capa-celular.jpg"
+              imageUrl="/lovable-uploads/4244e402-b30d-45cc-beab-12952bdd8db6.png"
             />
 
             <ProductCard
@@ -154,7 +154,7 @@ const Index = () => {
               rating={4.8}
               platform="shopee"
               isViral={true}
-              imageUrl="/images/products/suporte-celular.jpg"
+              imageUrl="/lovable-uploads/04a7a85a-bcbf-4a9b-a67e-27ec74dac0df.png"
             />
 
             <ProductCard
@@ -164,7 +164,7 @@ const Index = () => {
               discount="73"
               rating={4.5}
               platform="aliexpress"
-              imageUrl="/images/products/carregador-wireless.jpg"
+              imageUrl="/lovable-uploads/b40673ec-c703-40cb-abbb-56907b31169a.png"
             />
           </div>
 
