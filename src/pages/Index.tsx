@@ -301,3 +301,4 @@ const Index = () => {
 };
 
 export default Index;
+git clone https://github.com/PentaMoses/viral-promo-kit.git
